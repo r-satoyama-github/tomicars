@@ -6,7 +6,7 @@
         "no": 86,
         "name_en": "GR86",
         "name_jp": "GR 86",
-        "image_path": "/images/86_toyota_gr86.png",
+        "image_path": "/images/86_toyota_gr86.PNG",
         "sound_path": "/sounds/anpanman.m4a"
     },
     {
@@ -14,7 +14,7 @@
         "no": 79,
         "name_en": "Ambulance",
         "name_jp": "きゅうきゅうしゃ",
-        "image_path": "/images/79_toyota_himedic-ambulance.png",
+        "image_path": "/images/79_toyota_himedic-ambulance.PNG",
         "sound_path": "/sounds/ambulance.m4a"
     },
     {
@@ -22,7 +22,7 @@
         "no": 20,
         "name_en": "Toei Bus",
         "name_jp": "とえいばす",
-        "image_path": "/images/20_isuzu_elga_toeibus.png",
+        "image_path": "/images/20_isuzu_elga_toeibus.PNG",
         "sound_path": "/sounds/bus.m4a"
     },
     {
@@ -30,7 +30,7 @@
         "no": 41,
         "name_en": "Fire Truck",
         "name_jp": "しょうぼうしゃ",
-        "image_path": "/images/41_morita_cd-i_pomp-fire-track.png",
+        "image_path": "/images/41_morita_cd-i_pomp-fire-track.PNG",
         "sound_path": "/sounds/fire-truck.m4a"
     },
     {
@@ -38,7 +38,7 @@
         "no": 50,
         "name_en": "GR Yaris",
         "name_jp": "GR やりす",
-        "image_path": "/images/50_toyota_gryaris.png",
+        "image_path": "/images/50_toyota_gryaris.PNG",
         "sound_path": "/sounds/anpanman.m4a"
     },
     {
@@ -46,7 +46,7 @@
         "no": 51,
         "name_en": "Taxi",
         "name_jp": "たくしー",
-        "image_path": "/images/51_toyota_crown-comfort_taxi.png",
+        "image_path": "/images/51_toyota_crown-comfort_taxi.PNG",
         "sound_path": "/sounds/taxi.m4a"
     },
     {
@@ -54,7 +54,7 @@
         "no": 67,
         "name_en": "Hilux",
         "name_jp": "はいらっくす",
-        "image_path": "/images/67_toyota_hilux.png",
+        "image_path": "/images/67_toyota_hilux.PNG",
         "sound_path": "/sounds/anpanman.m4a"
     },
     {
@@ -62,7 +62,7 @@
         "no": 81,
         "name_en": "RAV4",
         "name_jp": "らぶ4",
-        "image_path": "/images/81_toyota_rav4.png",
+        "image_path": "/images/81_toyota_rav4.PNG",
         "sound_path": "/sounds/anpanman.m4a"
     },
     {
@@ -70,7 +70,7 @@
         "no": 82,
         "name_en": "SORA",
         "name_jp": "ねんりょうでんちばす",
-        "image_path": "/images/82_toyota_sora.png",
+        "image_path": "/images/82_toyota_sora.PNG",
         "sound_path": "/sounds/bus.m4a"
     },
     {
@@ -78,7 +78,7 @@
         "no": 84,
         "name_en": "Velfire",
         "name_jp": "ヴぇるふぁいあ",
-        "image_path": "/images/84_toyota_vellfire.png",
+        "image_path": "/images/84_toyota_vellfire.PNG",
         "sound_path": "/sounds/anpanman.m4a"
     },
     {
@@ -86,7 +86,7 @@
         "no": 108,
         "name_en": "Ladder Fire Truck",
         "name_jp": "はしごしょうぼうしゃ",
-        "image_path": "/images/108_hino_ladder-fire-truck.png",
+        "image_path": "/images/108_hino_ladder-fire-truck.PNG",
         "sound_path": "/sounds/fire-truck.m4a"
     },
     {
@@ -94,7 +94,7 @@
         "no": 110,
         "name_en": "Patrol Car",
         "name_jp": "ぱとかー",
-        "image_path": "/images/110_toyota_crown_patrolcar.png",
+        "image_path": "/images/110_toyota_crown_patrolcar.PNG",
         "sound_path": "/sounds/patrol-car.m4a"
     },
     {
@@ -102,7 +102,7 @@
         "no": 113,
         "name_en": "Hiace",
         "name_jp": "はいえーす",
-        "image_path": "/images/113_toyota_hiace.png",
+        "image_path": "/images/113_toyota_hiace.PNG",
         "sound_path": "/sounds/hiace.m4a"
     },
     {
@@ -110,7 +110,7 @@
         "no": 117,
         "name_en": "GR Supra",
         "name_jp": "GR すーぷら",
-        "image_path": "/images/117_toyota_grsupra.png",
+        "image_path": "/images/117_toyota_grsupra.PNG",
         "sound_path": "/sounds/anpanman.m4a"
     },
     {
@@ -118,7 +118,7 @@
         "no": 999,
         "name_en": "Wake",
         "name_jp": "うぇいく",
-        "image_path": "/images/999_daihatsu_wake_tokyo-motor-show.png",
+        "image_path": "/images/999_daihatsu_wake_tokyo-motor-show.PNG",
         "sound_path": "/sounds/anpanman.m4a"
     }
 ]
