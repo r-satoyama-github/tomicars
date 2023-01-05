@@ -1,0 +1,15 @@
+.container  {
+    height: 70vh;
+    padding: var(--space-xs);
+    margin-top: var(--stack-space, 1em);
+}
+
+.heading {
+    font-size: var(--heading2);
+}
+
+.text {
+    color: var(--gray-75);
+    font-size: var(--body);
+    margin-top: var(--stack-space, 1em);
+}
