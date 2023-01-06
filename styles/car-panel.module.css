@@ -1,12 +1,18 @@
 .flexContainer {
     composes: sideBySideCenter from 'styles/utils.module.css';
-    gap: 2em;
     flex-direction: column;
-    margin: 10px;
     background-color: var(--gray-25);
     border-radius: 10px;
+    margin: 10px;
     padding: 10px;
     justify-content: space-around;
+}
+
+.no {
+    font-size: var(--body);
+    width: 100%;
+    text-align: left;
+    color: var(--gray-75);
 }
 
 .name {
@@ -14,4 +20,6 @@
     font-weight: 700;
     letter-spacing: 0.15em;
     color: var(--gray-75);
+    padding-top: 10px;
 }
+

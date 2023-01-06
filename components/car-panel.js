@@ -6,13 +6,13 @@ export default function CarPanel(props) {
   const { tomica } = props;
   const audioEl = new useRef(null);
   const onClick = () => {
-    // music.play();
     console.log(audioEl);
     audioEl.current.play();
   };
 
   return (
     <div className={styles.flexContainer} onClick={onClick}>
+      <p className={styles.no}>{tomica.no === 999 ? "なし" : tomica.no}</p>
       <figure>
         <Image
           src={tomica.image_path}

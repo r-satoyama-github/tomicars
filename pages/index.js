@@ -13,9 +13,12 @@ export default function Home(props) {
   return (
     <>
       <div className={styles.container}>
-        {tomicars.map((tomica) => (
-          <CarPanel key={tomica.id} tomica={tomica} />
-        ))}
+        <p className={styles.text}>タップしてね</p>
+        <div className={styles.gridContainer}>
+          {tomicars.map((tomica) => (
+            <CarPanel key={tomica.id} tomica={tomica} />
+          ))}
+        </div>
       </div>
     </>
   );
