@@ -20,7 +20,7 @@ export default function Home(props) {
   );
 }
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const filePath = path.join(process.cwd(), "data/data.json");
   const data = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(data);
