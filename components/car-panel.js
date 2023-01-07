@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "styles/car-panel.module.css";
 import { useRef } from "react";
-import { getPlaiceholder } from "plaiceholder";
 
 export default function CarPanel(props) {
-  const { no, name, image_path, blurDataURL, sound_path } = props;
+  const { no, name, image_path, sound_path, blurDataURL } = props.tomica;
+  console.log(props);
   const audioEl = new useRef(null);
   const onClick = () => {
     console.log(audioEl);
@@ -33,19 +33,17 @@ export default function CarPanel(props) {
   );
 }
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const tomica = context.params.tomica;
   const no = tomica.no;
   const name = tomica.name_jp;
   const image_path = tomica.image_path;
   const sound_path = tomica.sound_path;
-  const { base64 } = await getPlaiceholder(tomica.image_path);
   return {
     props: {
       no: no,
       name: name,
       image_path: image_path,
-      blurDataURL: base64,
       sound_path: sound_path,
     },
   };
