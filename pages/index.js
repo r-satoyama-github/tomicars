@@ -36,6 +36,13 @@ export const getStaticProps = async () => {
       };
     })
   );
+  tomicars.sort(function (a, b) {
+    if (a.no > b.no) {
+      return 1;
+    } else {
+      return -1;
+    }
+  });
   const tomicaObj = {
     tomicars: tomicars,
   };
