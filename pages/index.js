@@ -6,7 +6,6 @@ import { getPlaiceholder } from "plaiceholder";
 
 export default function Home(props) {
   const tomicars = props.tomicars;
-  console.log(props.tomicars);
   return (
     <>
       <div className={styles.container}>

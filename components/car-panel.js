@@ -4,10 +4,8 @@ import { useRef } from "react";
 
 export default function CarPanel(props) {
   const { no, name, image_path, sound_path, blurDataURL } = props.tomica;
-  console.log(props);
   const audioEl = new useRef(null);
   const onClick = () => {
-    console.log(audioEl);
     audioEl.current.play();
   };
 
@@ -21,7 +19,7 @@ export default function CarPanel(props) {
           layout="responsive"
           width={1980}
           height={1150}
-          // sizes="(min-width: 250px) 250px, 100vw"
+          // sizes="(max-width: 768px) 100vw, 50vw"
           sizes="50vw"
           placeholder="blur"
           blurDataURL={blurDataURL}
@@ -31,20 +29,4 @@ export default function CarPanel(props) {
       <span className={styles.name}>{name}</span>
     </div>
   );
-}
-
-export async function getServerSideProps(context) {
-  const tomica = context.params.tomica;
-  const no = tomica.no;
-  const name = tomica.name_jp;
-  const image_path = tomica.image_path;
-  const sound_path = tomica.sound_path;
-  return {
-    props: {
-      no: no,
-      name: name,
-      image_path: image_path,
-      sound_path: sound_path,
-    },
-  };
 }
