@@ -2,7 +2,7 @@ import styles from "styles/about.module.css";
 export default function About() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading}>ようこそ　Tomicars　へ</h1>
+      <h1 className={styles.heading}>ようこそ Tomicars へ</h1>
       <p className={styles.text}>
         このWebアプリでは、ISSHINが持っているトミカの一覧を閲覧できます。
       </p>
