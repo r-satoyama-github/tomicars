@@ -111,7 +111,7 @@
         "name_en": "GR Supra",
         "name_jp": "GR すーぷら",
         "image_path": "/images/117_toyota_grsupra.PNG",
-        "sound_path": "/sounds/anpanman.m4a"
+        "sound_path": "/sounds/supra.m4a"
     },
     {
         "id": 15,
@@ -160,6 +160,22 @@
         "name_jp": "みにーまうす",
         "image_path": "/images/999_disney_poppins_minniemouse.PNG",
         "sound_path": "/sounds/minniemouse.m4a"
+    },
+    {
+        "id": 21,
+        "no": 999,
+        "name_en": "Neko Bus",
+        "name_jp": "ねこばす",
+        "image_path": "/images/999_ghibli_neko-bus.PNG",
+        "sound_path": "/sounds/neko-bus.m4a"
+    },
+    {
+        "id": 22,
+        "no": 45,
+        "name_en": "Garbage Truck",
+        "name_jp": "せいそうしゃ",
+        "image_path": "/images/45_toyota_dyna_garbage-truck.PNG",
+        "sound_path": "/sounds/garbage-truck.m4a"
     }
 ]
 }
