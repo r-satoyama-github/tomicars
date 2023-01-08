@@ -7,7 +7,7 @@
         "name_en": "GR86",
         "name_jp": "GR 86",
         "image_path": "/images/86_toyota_gr86.PNG",
-        "sound_path": "/sounds/anpanman.m4a"
+        "sound_path": "/sounds/gr86.m4a"
     },
     {
         "id": 2,
@@ -120,6 +120,46 @@
         "name_jp": "うぇいく",
         "image_path": "/images/999_daihatsu_wake_tokyo-motor-show.PNG",
         "sound_path": "/sounds/wake.m4a"
+    },
+    {
+        "id": 16,
+        "no": 29,
+        "name_en": "Tomas Bus",
+        "name_jp": "とーますばす",
+        "image_path": "/images/29_hino_tomasland-express.PNG",
+        "sound_path": "/sounds/tomas-bus.m4a"
+    },
+    {
+        "id": 17,
+        "no": 105,
+        "name_en": "Patrol Car",
+        "name_jp": "パトカー",
+        "image_path": "/images/105_nissan_gt-r_patrolcar.PNG",
+        "sound_path": "/sounds/patrol-car.m4a"
+    },
+    {
+        "id": 18,
+        "no": 999,
+        "name_en": "2022 Disney Christmas Bus",
+        "name_jp": "みっきーまうすばす",
+        "image_path": "/images/999_disney_bus_2022-christmas.PNG",
+        "sound_path": "/sounds/mickymouse-bus.m4a"
+    },
+    {
+        "id": 19,
+        "no": 999,
+        "name_en": "Chip & Dale",
+        "name_jp": "ちっぷ あんど でーる",
+        "image_path": "/images/999_disney_caspals_chip-dale.PNG",
+        "sound_path": "/sounds/chip-dale.m4a"
+    },
+    {
+        "id": 20,
+        "no": 999,
+        "name_en": "Minnie Mouse",
+        "name_jp": "みにーまうす",
+        "image_path": "/images/999_disney_poppins_minniemouse.PNG",
+        "sound_path": "/sounds/minniemouse.m4a"
     }
 ]
 }
