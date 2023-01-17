@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["tomicars.vercel.app"],
+    domains: ["tomicars.vercel.app", "api.aaamoyst.com", "static.aaamoyst.com"],
   },
 };
 

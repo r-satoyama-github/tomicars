@@ -1,8 +1,7 @@
 import styles from "../styles/Home.module.css";
 import CarPanel from "components/car-panel";
-import fsPromises from "fs/promises";
-import path from "path";
 import { getPlaiceholder } from "plaiceholder";
+import { aws_api_baseurl, aws_cloudfront_baseurl } from "libs/constants";
 
 export default function Home(props) {
   const tomicars = props.tomicars;
@@ -20,18 +19,20 @@ export default function Home(props) {
   );
 }
 
-export const getStaticProps = async () => {
-  const filePath = path.join(process.cwd(), "data/data.json");
-  const data = await fsPromises.readFile(filePath);
-  const objectData = JSON.parse(data);
+export const getServerSideProps = async () => {
+  const response = await fetch(aws_api_baseurl + "tomicars");
+  const data = await response.json();
+  const objectData = JSON.parse(JSON.stringify(data));
   const tomicars = await Promise.all(
-    objectData.tomicars.map(async (tomica) => {
-      const { base64 } = await getPlaiceholder(tomica.image_path);
+    objectData.map(async (tomica) => {
+      const { base64 } = await getPlaiceholder(
+        aws_cloudfront_baseurl + tomica.image_path
+      );
       return {
         no: tomica.no,
         name: tomica.name_jp,
-        image_path: tomica.image_path,
-        sound_path: tomica.sound_path,
+        image_path: aws_cloudfront_baseurl + tomica.image_path,
+        sound_path: aws_cloudfront_baseurl + tomica.sound_path,
         blurDataURL: base64,
       };
     })
