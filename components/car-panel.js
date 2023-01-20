@@ -3,7 +3,8 @@ import styles from "styles/car-panel.module.css";
 import { useRef } from "react";
 
 export default function CarPanel(props) {
-  const { no, name, image_path, sound_path, blurDataURL } = props.tomica;
+  // const { no, name, image_path, sound_path, blurDataURL } = props.tomica;
+  const { no, name, image_path, sound_path } = props.tomica;
   const audioEl = new useRef(null);
   const onClick = () => {
     audioEl.current.play();
@@ -12,6 +13,7 @@ export default function CarPanel(props) {
   return (
     <div className={styles.flexContainer} onClick={onClick}>
       <p className={styles.no}>{no === 999 ? "なし" : no}</p>
+      {console.log(image_path)}
       <figure>
         <Image
           src={image_path}
@@ -21,8 +23,8 @@ export default function CarPanel(props) {
           height={1150}
           // sizes="(max-width: 768px) 100vw, 50vw"
           sizes="50vw"
-          placeholder="blur"
-          blurDataURL={blurDataURL}
+          // placeholder="blur"
+          // blurDataURL={blurDataURL}
         />
       </figure>
       <audio ref={audioEl} src={sound_path} />
