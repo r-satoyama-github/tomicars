@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import CarPanel from "components/car-panel";
-import { getPlaiceholder } from "plaiceholder";
+// import { getPlaiceholder } from "plaiceholder";
 import { aws_api_baseurl, aws_cloudfront_baseurl } from "libs/constants";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -31,15 +31,20 @@ export const getServerSideProps = async () => {
   const tomicars = await Promise.all(
     Object.keys(objectData).map(async (index) => {
       const tomica = objectData[index];
-      const { base64 } = await getPlaiceholder(
-        aws_cloudfront_baseurl + tomica.image_path
-      );
+      console.log(tomica);
+      console.log(aws_cloudfront_baseurl + tomica.image_path);
+      // const { base64 } = await getPlaiceholder(
+      //   aws_cloudfront_baseurl + tomica.image_path
+      // );
+      // const { base64 } = await getPlaiceholder(
+      // "https://static.aaamoyst.com/images/113_toyota_hiace.PNG"
+      // );
       return {
         no: tomica.no,
         name: tomica.name_jp,
         image_path: aws_cloudfront_baseurl + tomica.image_path,
         sound_path: aws_cloudfront_baseurl + tomica.sound_path,
-        blurDataURL: base64,
+        // blurDataURL: base64,
       };
     })
     // objectData.map(async (tomica) => {
