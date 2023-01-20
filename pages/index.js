@@ -22,7 +22,6 @@ export default function Home(props) {
 }
 
 export const getServerSideProps = async () => {
-  // fetchはNode.js 18 だとだめ？　とりあえずVercelではだめ。Localはおけ
   // const response = await fetch(aws_api_baseurl + "tomicars");
 
   const response = await axios.get(aws_api_baseurl + "tomicars");
@@ -31,34 +30,27 @@ export const getServerSideProps = async () => {
   const tomicars = await Promise.all(
     Object.keys(objectData).map(async (index) => {
       const tomica = objectData[index];
-      console.log(tomica);
-      console.log(aws_cloudfront_baseurl + tomica.image_path);
+
+      // Blurを実装したいがPlaiceholderが悪さをしているため、ServerlessFunctionTimeoutになる。
+      // 非同期の処理の仕方が悪い？
       // const { base64 } = await getPlaiceholder(
       //   aws_cloudfront_baseurl + tomica.image_path
       // );
-      // const { base64 } = await getPlaiceholder(
-      // "https://static.aaamoyst.com/images/113_toyota_hiace.PNG"
-      // );
+      // return {
+      //   no: tomica.no,
+      //   name: tomica.name_jp,
+      //   image_path: aws_cloudfront_baseurl + tomica.image_path,
+      //   sound_path: aws_cloudfront_baseurl + tomica.sound_path,
+      //   blurDataURL: base64,
+      // };
+
       return {
         no: tomica.no,
         name: tomica.name_jp,
         image_path: aws_cloudfront_baseurl + tomica.image_path,
         sound_path: aws_cloudfront_baseurl + tomica.sound_path,
-        // blurDataURL: base64,
       };
     })
-    // objectData.map(async (tomica) => {
-    //   const { base64 } = await getPlaiceholder(
-    //     aws_cloudfront_baseurl + tomica.image_path
-    //   );
-    //   return {
-    //     no: tomica.no,
-    //     name: tomica.name_jp,
-    //     image_path: aws_cloudfront_baseurl + tomica.image_path,
-    //     sound_path: aws_cloudfront_baseurl + tomica.sound_path,
-    //     blurDataURL: base64,
-    //   };
-    // })
   );
 
   tomicars.sort(function (a, b) {
