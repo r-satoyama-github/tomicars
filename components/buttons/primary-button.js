@@ -2,7 +2,27 @@ import { memo } from "react";
 import { BaseButton } from "./base-button";
 import styled from "styled-components";
 
-export const PrimaryButton = memo((props) => {
+// export const PrimaryButton = memo((props) => {
+//   const { children, onClick } = props;
+//   console.log("PrimaryButton");
+//   return (
+//     <>
+//       <SButton onClick={onClick}>{children}</SButton>
+//     </>
+//   );
+// });
+
+// export default function PrimaryButton(props) {
+//   const { children, onClick } = props;
+//   console.log("PrimaryButton");
+//   return (
+//     <>
+//       <SButton onClick={onClick}>{children}</SButton>
+//     </>
+//   );
+// }
+
+export const PrimaryButton = memo(function PrimaryButton(props) {
   const { children, onClick } = props;
   console.log("PrimaryButton");
   return (
