@@ -6,6 +6,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 export default function Home(props) {
+  console.log("Home:");
   const tomicars = props.tomicars;
   return (
     <>
@@ -24,7 +25,7 @@ export default function Home(props) {
 export const getServerSideProps = async () => {
   // const response = await fetch(aws_api_baseurl + "tomicars");
 
-  const response = await axios.get(aws_api_baseurl + "tomicars");
+  const response = await axios.get(aws_api_baseurl + "/tomicars");
   const objectData = await response.data;
   // const objectData = JSON.parse(JSON.stringify(data));
   const tomicars = await Promise.all(

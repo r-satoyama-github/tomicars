@@ -1,5 +1,3 @@
-{
-"tomicars":
 [
     {
         "id": 1,
@@ -7,7 +5,11 @@
         "name_en": "GR86",
         "name_jp": "GR 86",
         "image_path": "/images/86_toyota_gr86.PNG",
-        "sound_path": "/sounds/gr86.m4a"
+        "sound_path": "/sounds/gr86.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 2,
@@ -15,7 +17,11 @@
         "name_en": "Ambulance",
         "name_jp": "きゅうきゅうしゃ",
         "image_path": "/images/79_toyota_himedic-ambulance.PNG",
-        "sound_path": "/sounds/ambulance.m4a"
+        "sound_path": "/sounds/ambulance.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 3,
@@ -23,7 +29,11 @@
         "name_en": "Toei Bus",
         "name_jp": "とえいばす",
         "image_path": "/images/20_isuzu_elga_toeibus.PNG",
-        "sound_path": "/sounds/toei-bus.m4a"
+        "sound_path": "/sounds/toei-bus.m4a",
+        "manufacturer" : "いすゞ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 4,
@@ -31,7 +41,11 @@
         "name_en": "Fire Truck",
         "name_jp": "しょうぼうしゃ",
         "image_path": "/images/41_morita_cd-i_pomp-fire-track.PNG",
-        "sound_path": "/sounds/fire-truck.m4a"
+        "sound_path": "/sounds/fire-truck.m4a",
+        "manufacturer" : "森田",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 5,
@@ -39,7 +53,11 @@
         "name_en": "GR Yaris",
         "name_jp": "GR やりす",
         "image_path": "/images/50_toyota_gryaris.PNG",
-        "sound_path": "/sounds/yaris.m4a"
+        "sound_path": "/sounds/yaris.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 6,
@@ -47,7 +65,11 @@
         "name_en": "Taxi",
         "name_jp": "たくしー",
         "image_path": "/images/51_toyota_crown-comfort_taxi.PNG",
-        "sound_path": "/sounds/taxi.m4a"
+        "sound_path": "/sounds/taxi.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 7,
@@ -55,7 +77,11 @@
         "name_en": "Hilux",
         "name_jp": "はいらっくす",
         "image_path": "/images/67_toyota_hilux.PNG",
-        "sound_path": "/sounds/hilux.m4a"
+        "sound_path": "/sounds/hilux.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 8,
@@ -63,7 +89,11 @@
         "name_en": "RAV4",
         "name_jp": "らぶ4",
         "image_path": "/images/81_toyota_rav4.PNG",
-        "sound_path": "/sounds/rav4.m4a"
+        "sound_path": "/sounds/rav4.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 9,
@@ -71,7 +101,11 @@
         "name_en": "SORA",
         "name_jp": "ねんりょうでんちばす",
         "image_path": "/images/82_toyota_sora.PNG",
-        "sound_path": "/sounds/bus.m4a"
+        "sound_path": "/sounds/bus.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 10,
@@ -79,7 +113,11 @@
         "name_en": "Vellfire",
         "name_jp": "ヴぇるふぁいあ",
         "image_path": "/images/84_toyota_vellfire.PNG",
-        "sound_path": "/sounds/vellfire.m4a"
+        "sound_path": "/sounds/vellfire.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 11,
@@ -87,7 +125,11 @@
         "name_en": "Ladder Fire Truck",
         "name_jp": "はしごしょうぼうしゃ",
         "image_path": "/images/108_hino_ladder-fire-truck.PNG",
-        "sound_path": "/sounds/fire-truck.m4a"
+        "sound_path": "/sounds/fire-truck.m4a",
+        "manufacturer" : "日野",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 12,
@@ -95,7 +137,11 @@
         "name_en": "Patrol Car",
         "name_jp": "ぱとかー",
         "image_path": "/images/110_toyota_crown_patrolcar.PNG",
-        "sound_path": "/sounds/patrol-car.m4a"
+        "sound_path": "/sounds/patrol-car.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 13,
@@ -103,7 +149,11 @@
         "name_en": "Hiace",
         "name_jp": "はいえーす",
         "image_path": "/images/113_toyota_hiace.PNG",
-        "sound_path": "/sounds/hiace.m4a"
+        "sound_path": "/sounds/hiace.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 14,
@@ -111,7 +161,11 @@
         "name_en": "GR Supra",
         "name_jp": "GR すーぷら",
         "image_path": "/images/117_toyota_grsupra.PNG",
-        "sound_path": "/sounds/supra.m4a"
+        "sound_path": "/sounds/supra.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 15,
@@ -119,7 +173,11 @@
         "name_en": "Wake",
         "name_jp": "うぇいく",
         "image_path": "/images/999_daihatsu_wake_tokyo-motor-show.PNG",
-        "sound_path": "/sounds/wake.m4a"
+        "sound_path": "/sounds/wake.m4a",
+        "manufacturer" : "ダイハツ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 16,
@@ -127,7 +185,11 @@
         "name_en": "Tomas Bus",
         "name_jp": "とーますばす",
         "image_path": "/images/29_hino_tomasland-express.PNG",
-        "sound_path": "/sounds/tomas-bus.m4a"
+        "sound_path": "/sounds/tomas-bus.m4a",
+        "manufacturer" : "いすゞ",
+        "provider": "ママ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 17,
@@ -135,7 +197,11 @@
         "name_en": "Patrol Car",
         "name_jp": "パトカー",
         "image_path": "/images/105_nissan_gt-r_patrolcar.PNG",
-        "sound_path": "/sounds/patrol-car.m4a"
+        "sound_path": "/sounds/patrol-car.m4a",
+        "manufacturer" : "日産",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 18,
@@ -143,7 +209,11 @@
         "name_en": "2022 Disney Christmas Bus",
         "name_jp": "みっきーまうすばす",
         "image_path": "/images/999_disney_bus_2022-christmas.PNG",
-        "sound_path": "/sounds/mickymouse-bus.m4a"
+        "sound_path": "/sounds/mickymouse-bus.m4a",
+        "manufacturer" : "ディズニー",
+        "provider": "みほ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 19,
@@ -151,7 +221,11 @@
         "name_en": "Chip & Dale",
         "name_jp": "ちっぷ あんど でーる",
         "image_path": "/images/999_disney_caspals_chip-dale.PNG",
-        "sound_path": "/sounds/chip-dale.m4a"
+        "sound_path": "/sounds/chip-dale.m4a",
+        "manufacturer" : "ディズニー",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 20,
@@ -159,7 +233,11 @@
         "name_en": "Minnie Mouse",
         "name_jp": "みにーまうす",
         "image_path": "/images/999_disney_poppins_minniemouse.PNG",
-        "sound_path": "/sounds/minniemouse.m4a"
+        "sound_path": "/sounds/minniemouse.m4a",
+        "manufacturer" : "ディズニー",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 21,
@@ -167,7 +245,11 @@
         "name_en": "Neko Bus",
         "name_jp": "ねこばす",
         "image_path": "/images/999_ghibli_neko-bus.PNG",
-        "sound_path": "/sounds/neko-bus.m4a"
+        "sound_path": "/sounds/neko-bus.m4a",
+        "manufacturer" : "ジブリ",
+        "provider": "ママ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     },
     {
         "id": 22,
@@ -175,7 +257,10 @@
         "name_en": "Garbage Truck",
         "name_jp": "せいそうしゃ",
         "image_path": "/images/45_toyota_dyna_garbage-truck.PNG",
-        "sound_path": "/sounds/garbage-truck.m4a"
+        "sound_path": "/sounds/garbage-truck.m4a",
+        "manufacturer" : "トヨタ",
+        "provider": "パパ",
+        "got_at": "2023-01-01",
+        "created_at": "2023-01-16"
     }
 ]
-}
