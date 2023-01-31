@@ -41,11 +41,11 @@ export default function Nav() {
             About
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link href="/manage" onClick={closeNav}>
             Manage
           </Link>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );
