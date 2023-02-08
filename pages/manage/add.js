@@ -8,6 +8,7 @@ import styled from "styled-components";
 import Select from "react-select";
 import { ImageInput } from "components/inputs/image-input";
 import { SoundInput } from "components/inputs/sound-input";
+import { useCallback } from "react";
 
 export default function Add(props) {
   const providerOptions = [
@@ -48,7 +49,7 @@ export default function Add(props) {
   const [soundBase64, setSoundBase64] = useState(null);
 
   // Submitボタン押下時の処理
-  const onClickSubmit = () => {
+  const onClickSubmit = useCallback(() => {
     // 登録データの生成
     const data = {
       id: 0,
@@ -82,19 +83,19 @@ export default function Add(props) {
     // // APIへのPOST
     axios
       .post(aws_api_baseurl + "/tomicars", data)
-      .then((red) => {
-        console.log(red);
-        setResult({ ...result, status: red.status, data: red.data });
+      .then((res) => {
+        console.log(res);
+        setResult({ ...result, status: res.status, data: res.data });
       })
       .catch((error) => {
         console.log("POST TOMICA ERROR: " + error);
         setResult({ ...result, status: "Error", data: error.message });
       });
-  };
+  }, []);
 
-  const onClickConfirm = () => {
+  const onClickConfirm = useCallback(() => {
     setResult("");
-  };
+  }, []);
 
   // React-Selectのカスタムスタイル
   const selectStyles = {
