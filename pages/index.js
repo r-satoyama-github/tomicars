@@ -4,12 +4,15 @@ import CarPanel from "components/car-panel";
 import { aws_api_baseurl, aws_cloudfront_baseurl } from "libs/constants";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Head from "next/head";
+import Meta from "components/meta";
 
 export default function Home(props) {
   console.log("Home:");
   const tomicars = props.tomicars;
   return (
     <>
+      <Meta pageTitle="TOMICARS" />
       <div className={styles.container}>
         <p className={styles.text}>タップしてね</p>
         <div className={styles.gridContainer}>

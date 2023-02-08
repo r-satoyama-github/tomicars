@@ -1,11 +1,11 @@
 export const siteMeta = {
-  siteTitle: "CUBE",
-  siteDesc: "アウトプットしていくサイト",
-  siteUrl: "https://xxxxxxxx",
+  siteTitle: "AAAMOYST",
+  siteDesc: "AAAMOYST.COM",
+  siteUrl: "https://tomicars.aaamoyst.com",
   sitelang: "ja",
   siteLocale: "ja_JP",
   siteType: "website",
-  siteIcon: "/favicon.png",
+  siteIcon: "/favicon.jpg",
 };
 
 export const eyecatchLocal = {
