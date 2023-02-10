@@ -37,7 +37,6 @@ const SContainer = styled.div`
   min-width: 100px;
   gap: 5px;
   flex-direction: column;
-  border: 1px dotted var(--gray-25);
   padding: 5px;
 `;
 
@@ -50,16 +49,17 @@ const SLabel = styled.label`
   text-align: center;
   display: inline-block;
   position: relative;
-  background-color: var(--gray-10);
+  /* background-color: var(--gray-10); */
+  background-color: var(--white);
   font-size: var(--body);
   padding: 6px 12px;
   border-radius: 8px;
   transition: all 0.3s;
   min-width: 100px;
-  border: 2px var(--gray-25) solid;
+  border: 2px var(--beige-25) solid;
   @media (hover: hover) {
     &:hover {
-      background-color: var(--gray-25);
+      background-color: var(--beige-25);
       transition: all 0.3s;
     }
   }
@@ -67,7 +67,7 @@ const SLabel = styled.label`
   @media (hover: none) {
     -webkit-tap-highlight-color: transparent;
     &:active {
-      background-color: var(--gray-25);
+      background-color: var(--beige-25);
     }
   }
 `;

@@ -25,7 +25,7 @@ export default function Home(props) {
   );
 }
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   // const response = await fetch(aws_api_baseurl + "tomicars");
 
   const response = await axios.get(aws_api_baseurl + "/tomicars");

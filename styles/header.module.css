@@ -1,3 +1,14 @@
+.header {
+    left: 0;
+    z-index: 400;
+    border-bottom: 1px solid var(--beige-25);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--beige-10);
+}
 .flexContainer {
-    composes: spaceBetween from 'styles/utils.module.css'
+    composes: spaceBetween from 'styles/utils.module.css';
+
 }

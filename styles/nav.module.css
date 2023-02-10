@@ -67,7 +67,8 @@
         position: fixed;
         inset: 0 -100% 0 100%;
         z-index: 100;
-        background: rgba(0, 0, 0, 0.8);
+        /* background: rgba(0, 0, 0, 0.8); */
+        background: var(--navy-transparent);
         color: var(--white);
         transition: transform 0.4s;
     }
@@ -88,7 +89,7 @@
 /* ホバー */
 @media (hover: hover) {
     .list a:hover {
-        color: var(--accent);
+        color: var(--navy-hover);
     }
 }
 
@@ -98,6 +99,6 @@
     }
 
     .list a:active {
-        color: var(--accent);
+        color: var(--navy-hover);
     }
 }
