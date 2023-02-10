@@ -7,25 +7,12 @@ export default function Manage() {
   console.log("Manage Created");
   const [count, setCount] = useState(0);
 
-  const onClickAdd = () => {
-    setCount(count + 1);
-    alert("Add Clicked");
-  };
-  const onClickEdit = () => {
-    alert("Edit Clicked");
-  };
-  const onClickDelete = () => {
-    alert("Delete Clicked");
-  };
   return (
     <>
       <SContainer>
         <SLink href="/manage/add">ADD</SLink>
         <SLink href="/manage/edit">EDIT</SLink>
         <SLink href="/manage/delete">DELETE</SLink>
-        {/* <PrimaryButton onClick={onClickAdd}>ADD</PrimaryButton>
-        <PrimaryButton onClick={onClickEdit}>EDIT</PrimaryButton>
-        <PrimaryButton onClick={onClickDelete}>DELETE</PrimaryButton> */}
       </SContainer>
     </>
   );
@@ -40,9 +27,9 @@ const SContainer = styled.div`
 `;
 
 const SLink = styled(Link)`
-  background-color: var(--gray-75);
+  background-color: var(--orange-accent);
   text-align: center;
-  color: #fff;
+  color: var(--white);
   padding: 6px 24px;
   border: none;
   border-radius: 9999px;

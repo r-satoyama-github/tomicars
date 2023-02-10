@@ -3,6 +3,8 @@ import styles from "styles/nav.module.css";
 import { useState } from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import styled from "styled-components";
+
 export default function Nav() {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
@@ -50,3 +52,10 @@ export default function Nav() {
     </nav>
   );
 }
+
+// const SLink = styled(Link)`
+//   &:hover {
+//     cursor: pointer;
+//     color: var(--navy-hover);
+//   }
+// `;

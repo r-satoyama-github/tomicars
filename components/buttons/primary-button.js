@@ -13,5 +13,5 @@ export const PrimaryButton = memo(function PrimaryButton(props) {
 });
 
 const SButton = styled(BaseButton)`
-  background-color: var(--gray-75);
+  background-color: var(--orange-accent);
 `;

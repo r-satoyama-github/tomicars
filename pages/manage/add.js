@@ -107,11 +107,11 @@ export default function Add(props) {
     control: () => ({
       width: "50vw",
       display: "flex",
-      borderColor: "var(--gray-25)",
+      borderColor: "var(--beige-25)",
       borderRadius: "8px",
       borderStyle: "solid",
       borderWidth: "2px",
-      backgroundColor: "var(--gray-10)",
+      backgroundColor: "var(--white)",
       minWidth: "100px",
     }),
     singleValue: (provided, state) => {
@@ -200,7 +200,6 @@ const SButtonContainer = styled.div`
 `;
 
 const SLink = styled(Link)`
-  color: red;
   text-align: center;
   padding: 6px 24px;
   margin-bottom: 30px;

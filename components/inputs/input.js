@@ -14,9 +14,11 @@ export const Input = (props) => {
 };
 
 const SInput = styled.input`
-  background-color: var(--gray-10);
+  /* background-color: var(--gray-10); */
+  background-color: var(--white);
   outline: none;
-  border: 2px var(--gray-25) solid;
+  /* border: 2px var(--gray-25) solid; */
+  border: 2px var(--beige-25) solid;
   padding: 6px 12px;
   border-radius: 8px;
   width: 50vw;
