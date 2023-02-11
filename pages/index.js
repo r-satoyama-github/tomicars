@@ -9,8 +9,19 @@ import { Text } from "components/texts/text";
 import img from "/public/images/kyun.png";
 import Image from "next/image";
 import { Content } from "components/contents/content";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const router = useRouter();
+  const OnClickTomicars = () => {
+    router.push("/tomicars");
+  };
+  const OnClickVoices = () => {
+    router.push("/voices");
+  };
+  const OnClickAbout = () => {
+    router.push("/about");
+  };
   return (
     <>
       <Meta pageTitle="HOME" />
@@ -21,19 +32,22 @@ export default function Home() {
           </Heading1>
         </div>
         <Content
+          onClick={OnClickTomicars}
           title="Tomicars"
           text="ISSHINのトミカをのぞいてみる？"
           path="/images/car.png"
         />
         <Content
+          onClick={OnClickVoices}
           title="Voices"
           text="ISSHINの声でキュンしてみる？"
           path="/images/kyun.png"
         />
         <Content
+          onClick={OnClickAbout}
           title="About"
-          text="STYMのこときいてみる？"
-          path="/images/ear.png"
+          text="STYMのこと知ってみる？"
+          path="/images/about.png"
         />
       </div>
     </>

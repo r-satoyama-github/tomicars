@@ -44,6 +44,11 @@ export default function Nav() {
           </Link>
         </li>
         <li>
+          <Link href="/voices" onClick={closeNav}>
+            Voices
+          </Link>
+        </li>
+        <li>
           <Link href="/about" onClick={closeNav}>
             About
           </Link>

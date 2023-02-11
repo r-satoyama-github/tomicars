@@ -4,10 +4,10 @@ import Image from "next/image";
 import styled from "styled-components";
 
 export function Content(props) {
-  const { title, text, path } = props;
+  const { title, text, path, onClick } = props;
   return (
     <>
-      <SContentArea>
+      <SContentArea onClick={onClick}>
         <SHr />
         <Heading2 style={{ textAlign: "center" }}>{title}</Heading2>
         <Text style={{ textAlign: "center" }}>{text}</Text>
