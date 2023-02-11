@@ -1,7 +1,7 @@
 export const siteMeta = {
-  siteTitle: "AAAMOYST",
-  siteDesc: "AAAMOYST.COM",
-  siteUrl: "https://tomicars.aaamoyst.com",
+  siteTitle: "STYM",
+  siteDesc: "STYM's Site",
+  siteUrl: "https://www.aaamoyst.com",
   sitelang: "ja",
   siteLocale: "ja_JP",
   siteType: "website",

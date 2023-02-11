@@ -39,15 +39,20 @@ export default function Nav() {
           </Link>
         </li>
         <li>
+          <Link href="/tomicars" onClick={closeNav}>
+            Tomicars
+          </Link>
+        </li>
+        <li>
           <Link href="/about" onClick={closeNav}>
             About
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/manage" onClick={closeNav}>
             Manage
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

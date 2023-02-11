@@ -9,15 +9,17 @@ export default function Layout(props) {
     <>
       <Header />
 
-      <SMain>{children}</SMain>
+      <SContainer>
+        <main>{children}</main>
+      </SContainer>
 
       <Footer />
     </>
   );
 }
 
-const SMain = styled.main`
-  top: 50px;
+const SContainer = styled.div`
+  top: clamp(50px, 10vw, 100px);
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: clamp(50px, 10vw, 100px);
 `;

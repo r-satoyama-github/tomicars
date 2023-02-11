@@ -5,7 +5,7 @@ export default function Logo(props) {
   const { boxOn = false } = props;
   return (
     <Link href="/" className={boxOn ? styles.box : styles.basic}>
-      TOMICARS
+      STYM
     </Link>
   );
 }

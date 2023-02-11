@@ -1,18 +1,18 @@
 import Meta from "components/meta";
+import { Heading1 } from "components/texts/heading1";
+import { Text } from "components/texts/text";
 import styles from "styles/about.module.css";
 export default function About() {
   return (
     <>
       <Meta pageTitle="ABOUT" pageDesc="About Tomicars" />
       <div className={styles.container}>
-        <h1 className={styles.heading}>ようこそ Tomicars へ</h1>
-        <p className={styles.text}>
-          このWebアプリでは、ISSHINが持っているトミカの一覧を閲覧できます。
-        </p>
-        <p className={styles.text}>
-          また、トミカをタップするとISSHINの声を聴くことができます。
-        </p>
-        <p className={styles.text}>お楽しみください。</p>
+        <Heading1>ようこそ、STYMの世界へ</Heading1>
+        <Text>
+          STYMでは、ISSHINのトミカたちをのぞいたり、声を聴いたりできます。
+        </Text>
+        <Text>トミカに触れると何かが起こる！？</Text>
+        <Text>どうぞSTYMの世界をお楽しみください。</Text>
       </div>
     </>
   );
