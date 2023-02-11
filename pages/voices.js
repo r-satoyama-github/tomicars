@@ -1,3 +1,4 @@
+import Meta from "components/meta";
 import { Heading1 } from "components/texts/heading1";
 import { Text } from "components/texts/text";
 
