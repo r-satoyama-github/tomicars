@@ -1,7 +1,8 @@
 export const siteMeta = {
   siteTitle: "STYM",
   siteDesc: "STYM's Site",
-  siteUrl: "https://www.aaamoyst.com",
+  // siteUrl: "https://www.aaamoyst.com",
+  siteUrl: "https://tomicars.vercel.app",
   sitelang: "ja",
   siteLocale: "ja_JP",
   siteType: "website",
