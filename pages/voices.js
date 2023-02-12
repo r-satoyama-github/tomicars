@@ -30,7 +30,15 @@ export default function Voices(props) {
           (genre) => {
             return (
               <SContainer key={genre}>
-                <Heading2 style={{ textAlign: "center" }}>{genre}</Heading2>
+                <Heading2
+                  style={{
+                    textAlign: "center",
+                    clipPath: "inset(0)",
+                    animation: "initial",
+                  }}
+                >
+                  {genre}
+                </Heading2>
                 <div className={styles.gridContainer}>
                   {voices
                     .filter((voice) => voice.genre == genre)
@@ -57,5 +65,5 @@ export const getStaticProps = async () => {
 };
 
 const SContainer = styled.div`
-  margin: 10px;
+  margin: 5px;
 `;
