@@ -1,0 +1,188 @@
+{
+    "voices": [
+        {
+            "id": 1,
+            "title": "トヨタ",
+            "genre" : "くるま",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/1.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 2,
+            "title": "ホンダ",
+            "genre" : "くるま",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/2.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 3,
+            "title": "ばいばい",
+            "genre" : "コミュニケーション",
+            "image_path": "/images/voices/coffee.png",
+            "sound_path": "/sounds/voices/3.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 4,
+            "title": "レクサス",
+            "genre" : "くるま",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/4.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 5,
+            "title": "日産",
+            "genre" : "くるま",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/5.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 6,
+            "title": "スズキ",
+            "genre" : "くるま",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/6.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 7,
+            "title": "三菱",
+            "genre" : "くるま",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/7.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 8,
+            "title": "マツダ",
+            "genre" : "くるま",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/8.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 9,
+            "title": "いか",
+            "genre" : "さかな　すし",
+            "image_path": "/images/voices/fish.png",
+            "sound_path": "/sounds/voices/9.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 10,
+            "title": "たまご",
+            "genre" : "さかな　すし",
+            "image_path": "/images/voices/fish.png",
+            "sound_path": "/sounds/voices/10.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 11,
+            "title": "たこ",
+            "genre" : "さかな　すし",
+            "image_path": "/images/voices/fish.png",
+            "sound_path": "/sounds/voices/11.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 12,
+            "title": "へいおまち",
+            "genre" : "コミュニケーション",
+            "image_path": "/images/voices/coffee.png",
+            "sound_path": "/sounds/voices/12.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 13,
+            "title": "あいかん",
+            "genre" : "でんしゃ",
+            "image_path": "/images/voices/traffic.png",
+            "sound_path": "/sounds/voices/13.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 14,
+            "title": "おはよう",
+            "genre" : "コミュニケーション",
+            "image_path": "/images/voices/coffee.png",
+            "sound_path": "/sounds/voices/14.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 15,
+            "title": "いただきます",
+            "genre" : "コミュニケーション",
+            "image_path": "/images/voices/coffee.png",
+            "sound_path": "/sounds/voices/15.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 16,
+            "title": "ごちそうさま",
+            "genre" : "コミュニケーション",
+            "image_path": "/images/voices/coffee.png",
+            "sound_path": "/sounds/voices/16.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 17,
+            "title": "トーマス",
+            "genre" : "キャラクター",
+            "image_path": "/images/voices/usi.png",
+            "sound_path": "/sounds/voices/17.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 18,
+            "title": "ドラえもん",
+            "genre" : "キャラクター",
+            "image_path": "/images/voices/usi.png",
+            "sound_path": "/sounds/voices/18.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 19,
+            "title": "アンパンマン",
+            "genre" : "キャラクター",
+            "image_path": "/images/voices/usi.png",
+            "sound_path": "/sounds/voices/19.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 20,
+            "title": "ミッキー",
+            "genre" : "キャラクター",
+            "image_path": "/images/voices/usi.png",
+            "sound_path": "/sounds/voices/20.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 21,
+            "title": "パウパト",
+            "genre" : "キャラクター",
+            "image_path": "/images/voices/usi.png",
+            "sound_path": "/sounds/voices/21.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 22,
+            "title": "マーシャル",
+            "genre" : "キャラクター",
+            "image_path": "/images/voices/usi.png",
+            "sound_path": "/sounds/voices/22.m4a",
+            "created_at": "2023-02-12"
+        },
+        {
+            "id": 23,
+            "title": "おとうちゃん",
+            "genre" : "キャラクター",
+            "image_path": "/images/voices/usi.png",
+            "sound_path": "/sounds/voices/23.m4a",
+            "created_at": "2023-02-12"
+        }
+    ]
+}

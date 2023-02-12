@@ -10,7 +10,7 @@ export function Text(props) {
 }
 
 const SP = styled.p`
-  font-size: var(--name);
+  font-size: var(--body-mobile);
   clip-path: inset(0 100% 0 0);
   transition-property: clip-path;
   margin-top: 15px;

@@ -9,7 +9,9 @@ export default function About() {
       <div className={styles.container}>
         <Heading1>ようこそ、STYMの世界へ</Heading1>
         <Text>
-          STYMでは、ISSHINのトミカたちをのぞいたり、声を聴いたりできます。
+          STYMでは、ISSHINのトミカたちをのぞいたり、
+          <br />
+          声を聴いたりできます。
         </Text>
         <Text>トミカに触れると何かが起こる！？</Text>
         <Text>どうぞSTYMの世界をお楽しみください。</Text>

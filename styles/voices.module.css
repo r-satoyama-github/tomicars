@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 180px);
+    justify-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .gridContainer {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 250px);
+      justify-content: center;
+    }
+    
+  }
+  
+  .text {
+    text-align: center;
+    font-size: var(--heading2);
+    padding-top: 10px;
+  }

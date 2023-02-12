@@ -1,0 +1,19 @@
+.flexContainer {
+    composes: sideBySideCenter from 'styles/utils.module.css';
+    flex-direction: column;
+    /* background-color: var(--gray-25); */
+    background-color: var(--beige-25);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+.name {
+    font-size: var(--body-mobile);
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    padding-top: 10px;
+}
+

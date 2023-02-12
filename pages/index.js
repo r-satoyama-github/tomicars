@@ -3,11 +3,7 @@ import Meta from "components/meta";
 
 import styled from "styled-components";
 import { Heading1 } from "components/texts/heading1";
-import { Heading2 } from "components/texts/heading2";
-import { Text } from "components/texts/text";
 
-import img from "/public/images/kyun.png";
-import Image from "next/image";
 import { Content } from "components/contents/content";
 import { useRouter } from "next/router";
 
@@ -27,7 +23,9 @@ export default function Home() {
       <Meta pageTitle="HOME" />
       <div className={styles.container}>
         <div>
-          <Heading1 style={{ textAlign: "center" }}>
+          <Heading1
+            style={{ textAlign: "center", padding: "20px 0px 0px 0px" }}
+          >
             ようこそ、STYMの世界へ
           </Heading1>
         </div>
@@ -35,19 +33,19 @@ export default function Home() {
           onClick={OnClickTomicars}
           title="Tomicars"
           text="ISSHINのトミカをのぞいてみる？"
-          path="/images/car.png"
+          path="/images/home/car.png"
         />
         <Content
           onClick={OnClickVoices}
           title="Voices"
           text="ISSHINの声でキュンしてみる？"
-          path="/images/kyun.png"
+          path="/images/home/kyun.png"
         />
         <Content
           onClick={OnClickAbout}
           title="About"
           text="STYMのこと知ってみる？"
-          path="/images/about.png"
+          path="/images/home/about.png"
         />
       </div>
     </>
