@@ -35,7 +35,7 @@ export default function Voices(props) {
                   {voices
                     .filter((voice) => voice.genre == genre)
                     .map((voice) => (
-                      <VoicePanel voice={voice} />
+                      <VoicePanel key={voice.title} voice={voice} />
                     ))}
                 </div>
               </SContainer>
