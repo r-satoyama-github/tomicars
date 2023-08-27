@@ -3,7 +3,7 @@ import { siteMeta } from "libs/constants";
 import { useRouter } from "next/router";
 
 // import siteImg from "public/aaamoyst.jpg";
-import siteImg from "public/logo_cow.jpg";
+import siteImg from "public/logo_cow.png";
 
 export default function Meta(props) {
   const { pageTitle, pageDesc } = props;
