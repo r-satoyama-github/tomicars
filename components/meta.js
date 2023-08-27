@@ -2,7 +2,8 @@ import Head from "next/head";
 import { siteMeta } from "libs/constants";
 import { useRouter } from "next/router";
 
-import siteImg from "public/aaamoyst.jpg";
+// import siteImg from "public/aaamoyst.jpg";
+import siteImg from "public/logo_cow.jpg";
 
 export default function Meta(props) {
   const { pageTitle, pageDesc } = props;

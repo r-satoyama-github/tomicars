@@ -10,7 +10,6 @@ import VoicePanel from "components/voice-panel";
 
 export default function Voices(props) {
   const voices = props.voices;
-  console.log(voices);
   return (
     <>
       <Meta pageTitle="VOICES" />
