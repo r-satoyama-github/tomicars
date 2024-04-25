@@ -2,7 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["tomicars.vercel.app", "api.aaamoyst.com", "static.aaamoyst.com"],
+    domains: [
+      "tomicars.vercel.app",
+      "api.aaamoyst.com",
+      "static.aaamoyst.com",
+      "d3fyn6f8e6ynfd.cloudfront.net",
+    ],
   },
   async headers() {
     return [
