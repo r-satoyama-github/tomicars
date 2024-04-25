@@ -15,6 +15,8 @@ export const eyecatchLocal = {
   height: 1280,
 };
 
-export const aws_api_baseurl = "https://api.aaamoyst.com/v1";
+// export const aws_api_baseurl = "https://api.aaamoyst.com/v1";
+export const aws_api_baseurl =
+  "https://d-bnnneryskj.execute-api.ap-northeast-1.amazonaws.com/";
 // export const aws_cloudfront_baseurl = "https://static.aaamoyst.com";
 export const aws_cloudfront_baseurl = "https://d3fyn6f8e6ynfd.cloudfront.net";
